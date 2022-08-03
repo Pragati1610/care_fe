@@ -25,11 +25,10 @@
 //     }
 
 let str = React.string
-// %%raw(`import ("./styles.css")`)
 %%raw(`import ('@yaireo/ui-range')`)
 
-@react.component
-export make = (
+@genType @react.component
+let make = (
   ~title: string,
   ~titleNeighbour: React.element=<div className="hidden" />,
   ~start: string,

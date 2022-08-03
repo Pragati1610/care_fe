@@ -2,7 +2,6 @@
 @val external clearTimeout: float => unit = "clearTimeout"
 
 @val external document: 'a = "document"
-%%raw("import './styles.css'")
 
 let str = React.string
 open CriticalCare__Types
